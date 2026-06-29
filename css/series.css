@@ -1,0 +1,56 @@
+header {
+    height: 80vh;
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 20px 32px;
+}
+header h1 {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15%;
+    font-size: 100px;
+}
+/*main series section*/
+  .series-main .series-list{
+    display: grid; 
+    grid-template-columns: auto;
+    gap: 60px;
+    padding: 2rem;
+}
+.series{
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*prevents the series posters from overflowing from the conatiner*/
+}
+.series:hover{
+    transform: scale(1.05); /*zoom a little bit on hover*/
+}
+.series-info button {
+    margin-top: 1rem;
+    padding: 10px 20px;
+    border: none;
+    background-color: red;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+/* media query for desktop */
+@media (min-width: 700px) {
+  .series-main .series-list{
+    gap: 50px;
+    grid-template-columns: auto auto auto;
+  } 
+  .series{
+    padding: 1rem;
+    width: 100%;
+  }
+  .series img {
+    width: 100%;
+  }
+}
