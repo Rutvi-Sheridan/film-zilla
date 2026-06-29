@@ -148,12 +148,12 @@ in your browser.
 
 # Live Demo
 
-
+https://rutvi-sheridan.github.io/film-zilla/
 
 
 ---
 
-# 👩‍💻 Author
+# Author
 
 **Rutvi Panchal**
 
